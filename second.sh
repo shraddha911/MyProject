@@ -1,1 +1,3 @@
-cat Script1.sh | base64 -w0 > output.txt
+#!/bin/bash
+sudo apt-get update
+sudo apt-get -y install apache2
